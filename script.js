@@ -29,6 +29,7 @@ var operator = document.getElementsByClassName("operator");
 for(var i =0;i<operator.length;i++){
 	operator[i].addEventListener('click',function(){
 		if(this.id=="clear"){
+			
 			printHistory("");
 			printOutput("");
 		}
